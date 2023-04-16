@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style type="text/css">
+      body{
+        background: #eee;
+        padding-top:20px;
+        font-family: monospace;
+      }
+      .header{
+        border-radius: 20px 20px 0px 0px;
+        padding: 10px 0px;
+        background: purple;
+        color: #fff;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+      }
+      .faq-item{
+        margin-bottom:30px;
+        margin-top:30px;
+      }
+      .faq-body{
+        display: none;
+        margin-top:30px;
+      }
+      .faq-wrapper{
+        width: 75%;
+        margin: 0 auto;
+      }
+      .faq-inner{
+        padding: 30px;
+        background: aliceblue;
+      }
+      .faq-plus{
+        float: right;
+        font-size: 1.4em;
+        line-height: 1em;
+        cursor:pointer;
+      }
+      hr{
+        background-color: #9b9b9b;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="faq-wrapper">
+          <div class="header">
+            <h1>FAQs</h1>
+          </div>
+          <div class="faq-inner">
+            <div class="faq-item">
+              <h3>
+                What is a Sport?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                An activity involving physical exertion and skill in which an individual or team competes against another or others for entertainment.
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                Which sports are being evaluated?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Boys sports: Volleyball,Basketball,Football,Tennis,Cricket,Kabaddi,Badminton,Chess<br>
+                Girls sports: Basketball,Volleyball,Throwball,Badminton,Kho-Kho,Chess.
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                Do Men and Women Ever Compete in the Same Sport?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Firstly, some sports have mixed events. This is where men and women form a team (usually, but not always, a duo) and compete against another mixed team. This way, men and women compete together and against each other in a fair way as both teams feature the same number of male and female players.
+
+              </div>
+            </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                What benefits sports can bring us?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Control wait gain,Improves Blood Circulation,Reduce Hypertension,Stronger Immunity and Muscles. There are mental health benefits of playing sports Improves Mood,Reduces Stress, Improves Sleeping Habits,Boosts Self Confidence and many more.
+               </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                What if a problem occured?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                You can contact us with the provided contact details in our website so that it is easy to you to participate in various sports.
+               </div>
+            <hr>
+             
+            <div class="faq-item">
+              <h3>
+                Who is eligible?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                Anyone can participate in various sports from different colleges by using the registration form given in the website.
+               </div>
+            <hr>
+            <div class="faq-item">
+              <h3>
+                How many types of sports are there?
+                <span class="faq-plus">&plus;</span>
+              </h3>
+              <div class="faq-body">
+                According to the World Sports Encyclopaedia (2003), there are 8,000 indigenous sports and sporting games.
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  $(".faq-plus").on('click',function(){
+    $(this).parent().parent().find('.faq-body').slideToggle();
+  });
+</script>
+</body>
+</html>
